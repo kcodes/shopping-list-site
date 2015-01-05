@@ -1,0 +1,103 @@
+body {
+  background-image: url("../img/coffee-569178_1280.jpg");
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: #5a79a5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  padding: 2em 0 44em 0;
+  text-align: center;
+}
+
+h1 {
+  color: #efeff2;
+  font-family: 'Clicker Script', cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size: 72px;
+  line-height: 100%;
+  word-spacing: 2px;
+}
+
+.instructions {
+  color: #efeff2;
+  margin: 3em 0;
+  font-weight: bold;
+  padding: 2em 0;
+}
+
+#newitem { 
+  color: #5a79a5;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: .5em auto;
+  opacity: .9;
+  padding: .25em 0;
+  text-align: center;
+  width: 50%;
+  word-spacing: 1px;
+}
+
+textarea:focus, input:focus {
+  border: none;
+  outline: none;
+}
+
+.list li {
+  color:  #fefdfb;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 200%;
+  margin: .25em 20%;
+}
+
+.checkitem,
+.removeitem {
+  background-color: transparent;
+  border: none;
+  font-size: 1em;
+  line-height: 200%;
+  outline: none;
+}
+
+#sortitems {
+  cursor: move;
+  left: 25%;
+  position: absolute;
+}
+
+.checkitem {
+  color: #faebd7;
+  left: 32%;
+  position: absolute;
+}
+
+.removeitem {
+  color: #ce0000;
+  font-weight: bold;
+  position: absolute;
+  right: 32%;
+}
+
+.strikethroughtext {
+  text-decoration: line-through;
+}
+
+#footer {
+  color: #5a79a5;
+  position: fixed;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  padding-top: 10px;
+  background: #efeff2;
+}
